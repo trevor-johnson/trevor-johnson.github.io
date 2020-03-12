@@ -9,7 +9,7 @@ header:
 
 <h3> NBA Game Simulator </h3>
 
-A model to predict NBA game outcomes using Monte Carlo Simulation.
+A model to predict NBA game outcomes using Monte Carlo simulation.
 
 <a href="https://trevorjohnson.shinyapps.io/NBA_Simulation/" title="NBA Game Simulator" target="_blank">NBA Game Simulator</a>
 
