@@ -7,6 +7,14 @@ header:
     image: "/images/sf_fin.jpg"
 ---
 
+<h3> NBA Game Simulator </h3>
+
+A model to predict NBA game outcomes using Monte Carlo Simulation.
+
+<a href="https://trevorjohnson.shinyapps.io/NBA_Simulation/" title="NBA Game Simulator" target="_blank">NBA Game Simulator</a>
+___
+
+
 <h3>Auto Insurance Forecast for the SOA and CAS</h3>
 
 The Society of Actuaries and Casualty Actuarial Society hired students from my university to create aggregate reports using US auto insurance data. I prepared the trends report which uses ARIMA models to forecast insurance metrics across each of the 50 US states. The time series models produced useful information that highlights the states that experienced metrics higher or lower than expected.
