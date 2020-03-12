@@ -11,7 +11,7 @@ header:
 
 A model to predict NBA game outcomes using Monte Carlo simulation.
 
-<a href="https://trevorjohnson.shinyapps.io/NBA_Simulation/" title="NBA Game Simulator" target="_blank">NBA Game Simulator</a>
+<a href="https://tpjohnson.github.io/NBA_Simulation/" title="NBA Game Simulator" target="_blank">NBA Game Simulator</a>
 
 
 ___
