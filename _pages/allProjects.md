@@ -11,7 +11,7 @@ header:
 
 A model to predict NBA game outcomes using Monte Carlo simulation.
 
-<a href="https://tpjohnson.github.io/NBA_Simulation/" title="NBA Game Simulator" target="_blank">NBA Game Simulator</a>
+<a href="https://trevor-johnson.github.io/NBA_Simulation/" title="NBA Game Simulator" target="_blank">NBA Game Simulator</a>
 
 
 ___
@@ -52,7 +52,7 @@ ___
 <h5>Porto Seguro Auto Insurance Prediction Challenge</h5>
 This competition, hosted by Kaggle, was to build the most accurate model to predict the probability that a given policy holder files a claim. The variable details are hidden for data confidentiality. I used this challenge to explain the model building and testing process as well as perform an exploratory analysis of the data. I test out linear, recursive partitioning, and random forest models on the data.
 
-<a href = "https://tpjohnson.github.io/kagglePortoSeguro/#" title = "Auto Insurance Prediction Challenge" target = "_blank">Auto Insurance Prediction Challenge</a>
+<a href = "https://trevor-johnson.github.io/kagglePortoSeguro/#" title = "Auto Insurance Prediction Challenge" target = "_blank">Auto Insurance Prediction Challenge</a>
 
 ___
 
