@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Trevor Johnson"
   avatar           : "/images/seattle_small.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Actuary with a passion for data science and financial markets"
+  bio              : "Actuary with some data science projects"
   location         : "San Francisco, CA"
   email            : "trevorjohnson.tj@gmail.com"
   links:
