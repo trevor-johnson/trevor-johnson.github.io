@@ -2,7 +2,7 @@
 title: "NBA Game Simulation"
 date: 2020-3-11
 tags: [R, NBA, Simulation, Monte-Carlo, Sports]
-excerpt: ""
+excerpt: "Web scraping and simulation project"
 ---
 
 <html>
@@ -375,7 +375,7 @@ summary {
 
 
 <div id="start" class="section level1">
-<h1>Start</h1>
+<h1>Intro</h1>
 <p>Simulating NBA games and predicting wins using Monte Carlo Simulation</p>
 <p>Libraries needed</p>
 <pre class="r"><code>libraries &lt;- c(&quot;XML&quot;, &quot;rvest&quot;, &quot;dplyr&quot;, &quot;data.table&quot;, &quot;DT&quot;, &quot;ggplot2&quot;, &quot;patchwork&quot;)
@@ -383,7 +383,7 @@ sapply(libraries, require, character.only = T)</code></pre>
 </div>
 <div id="gathering-data" class="section level1">
 <h1>Gathering Data</h1>
-<p>Scrape real time data</p>
+<p>Scrape real time data from basketball-reference.com.</p>
 <pre class="r"><code># https://www.basketball-reference.com/leagues/NBA_2020_totals.html
 # you can change the year to get historical stats
 
@@ -461,6 +461,7 @@ players$DWS_zscore &lt;- NULL</code></pre>
 </div>
 <div id="possession-function" class="section level1">
 <h1>Possession Function</h1>
+<p>This function takes two teams as inputs, and simulates one possession round.</p>
 <pre class="r"><code># possession function
 ## read this as team A is on offense, team B is on defense
 
@@ -600,6 +601,7 @@ head(playByPlay, 20)</code></pre>
 </div>
 <div id="monte-carlo-simulation" class="section level1">
 <h1>Monte Carlo Simulation</h1>
+<p>Simulate NBA games by running the posession function many times. Assume that each game has 100 possessions. Then repeat this process 20 times to simulate 20 games.</p>
 <pre class="r"><code># Monte Carlo Simulation
 home_team &lt;- &quot;LAL&quot;
 away_team &lt;- &quot;UTA&quot;
@@ -648,7 +650,7 @@ print(x)</code></pre>
 <pre class="r"><code>x$spread &lt;- x$LAL - x$UTA
 x2 &lt;- x[,win := ifelse(spread &gt; 0, 1, 0)]</code></pre>
 <p>Lakers won 16/20 games against the Jazz, and win by 11.15 points.</p>
-<p>Average points per game accross 20 games data viz</p>
+<p>Barplot below displays the average points per game per player across 20 games.</p>
 <pre class="r"><code>scores &lt;- playByPlay_overall2[,.(sum(Points)), by = c(&quot;Team&quot;, &quot;Player&quot;)]
 scores$PPG &lt;- scores$V1/nGames
 p1 &lt;- scores[Team == home_team,] %&gt;% ggplot(aes(x = Player, y = PPG)) + geom_col() + coord_flip() + theme_bw() + theme(axis.title = element_blank(), panel.border = element_blank())

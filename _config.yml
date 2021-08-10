@@ -107,10 +107,10 @@ analytics:
 # Site Author
 author:
   name             : "Trevor Johnson"
-  avatar           : "/images/seattle_small.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Actuary with a passion for data science"
+  avatar           : "/images/Yosemite.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Actuary | Data Science Master's Student at UC Berkeley"
   location         : "San Francisco, CA"
-  email            : "trevorjohnson.tj@gmail.com"
+  email            : "trevorj@berkeley.edu"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

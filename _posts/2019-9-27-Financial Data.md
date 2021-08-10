@@ -2,7 +2,7 @@
 title: "Financial Data Dashboard"
 date: 2019-9-27
 tags: [Web-scrapping, finance, data-viz, R, RShiny]
-excerpt: ""
+excerpt: "Interactive dashboard built using R and Shiny"
 ---
 
 <h3>Financial Data Dashboard</h3>

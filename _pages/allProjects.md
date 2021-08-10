@@ -29,9 +29,9 @@ ___
 
 <h3>Program Usage Analysis for Microsoft</h3>
 
-Over the summer of 2017, I worked for a data analytics company, Jonathan Tooley Associates, located in Portugal. While there, I worked with a team to prepare a presentation to win a project bid with Microsoft. The task was to analyze program usage data collected from various companies. 
+Over the summer of 2017, I worked for a data science consultancy, Jonathan Tooley Associates, located in Porto, Portugal. While there, I worked with a team of data scientists to prepare a presentation to win a project bid with Microsoft. The task was to analyze data on computer program usage collected from various companies.
 
-Using Excel, R, and Shiny I built an interactive data dashboard to explore the data. The data dashboard features interactive bar charts, regression analysis, clustering algorithms, apriori association rules analysis, and linear discriminant analysis. 
+Using Excel, R, and Shiny I built an interactive data dashboard to explore the data. The data dashboard features interactive bar charts, a regression analysis, clustering anlaysis, apriori association rules visualization, and linear discriminant analysis. 
 
 My web dashboard as well as other analyses done by my colleagues were presented to the client, Microsoft, and won the project bid. The link to the web application I created is below. The program names are hidden for confidentiality reasons.
 
@@ -50,7 +50,8 @@ ___
 <h3>Kaggle Competition</h3>
 
 <h5>Porto Seguro Auto Insurance Prediction Challenge</h5>
-This competition, hosted by Kaggle, was to build the most accurate model to predict the probability that a given policy holder files a claim. The variable details are hidden for data confidentiality. I used this challenge to explain the model building and testing process as well as perform an exploratory analysis of the data. I test out linear, recursive partitioning, and random forest models on the data.
+
+This competition, hosted by Kaggle, was to build the most accurate model to predict the probability that a given policy holder files a claim. The variable details are hidden for data confidentiality. I used this challenge to explain the model building and testing process as well as perform an exploratory analysis of the data. I test out linear and tree based models on the data.
 
 <a href = "https://trevor-johnson.github.io/kagglePortoSeguro/" title = "Auto Insurance Prediction Challenge" target = "_blank">Auto Insurance Prediction Challenge</a>
 
