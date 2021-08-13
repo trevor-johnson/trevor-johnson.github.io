@@ -7,13 +7,19 @@ header:
     image: "/images/sf_fin.jpg"
 ---
 
+
+<h3>Roulette Simulation</h3>
+
+A Roulette game written in Python for a class I took at Berkeley.
+
+<a href="https://trevor-johnson.github.io/roulette/" title="Roulette App" target="_blank">Roulette App</a>
+___
+
 <h3> NBA Game Simulator </h3>
 
 A model to predict NBA game outcomes using Monte Carlo simulation.
 
 <a href="https://trevor-johnson.github.io/NBA_Simulation/" title="NBA Game Simulator" target="_blank">NBA Game Simulator</a>
-
-
 ___
 
 
