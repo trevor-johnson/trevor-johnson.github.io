@@ -21,6 +21,7 @@ ___
 A model to predict NBA game outcomes using Monte Carlo simulation.
 
 <a href="https://trevor-johnson.github.io/NBA_Simulation/" title="NBA Game Simulator" target="_blank">NBA Game Simulator</a>
+
 ___
 
 
