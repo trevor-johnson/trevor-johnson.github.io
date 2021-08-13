@@ -10,9 +10,10 @@ header:
 
 <h3>Roulette Simulation</h3>
 
-A Roulette game written in Python for a class I took at Berkeley.
+A Roulette game written in Python.
 
 <a href="https://trevor-johnson.github.io/roulette/" title="Roulette App" target="_blank">Roulette App</a>
+
 ___
 
 <h3> NBA Game Simulator </h3>
