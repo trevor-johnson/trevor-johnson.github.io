@@ -18,6 +18,8 @@ Python script filters for each event have been created and submits separated eve
     <summary>write_sword_events.py</summary>
 
 ```py
+
+
 #!/usr/bin/env python
 """Extract events from kafka and write them to hdfs
 """
@@ -113,6 +115,7 @@ def main():
 if __name__ == "__main__":
     main()
 
+
 ```
 
 </details>
@@ -121,6 +124,7 @@ if __name__ == "__main__":
     <summary>write_horse_events.py</summary>
 
 ```py
+
 #!/usr/bin/env python
 """Extract only horse purchasing events from kafka and write them to hdfs
 """
@@ -219,6 +223,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 ```
 
 </details>
@@ -227,6 +232,8 @@ if __name__ == "__main__":
     <summary>write_guild_events.py</summary>
 
 ```py
+
+
 #!/usr/bin/env python
 """Extract only guild events from kafka and write them to hdfs
 """
@@ -319,6 +326,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
 ```
 
 </details>
