@@ -7,14 +7,6 @@ header:
     image: "/images/sf_fin.jpg"
 ---
 
-<h3>Data Pipline</h3>
-
-End to end data pipeline hosted on Google Cloud. Project features a Flask app to trigger API calls, Kafka to collect incoming data, Pyspark to collect and manipulate data in stream, and HDFS to house the structured data. 
-
-<a href="https://trevor-johnson.github.io/data-pipeline/" title="Data Pipeline" target="_blank">Data Pipeline</a>
-
-___
-
 <h3>Roulette Simulation</h3>
 
 A Roulette game written in Python.
@@ -28,7 +20,6 @@ ___
 A model to predict NBA game outcomes using Monte Carlo simulation.
 
 <a href="https://trevor-johnson.github.io/NBA_Simulation/" title="NBA Game Simulator" target="_blank">NBA Game Simulator</a>
-
 
 ___
 
